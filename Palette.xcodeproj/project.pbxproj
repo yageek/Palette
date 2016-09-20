@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5420C31D8ADF47002FAF29 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5420C21D8ADF47002FAF29 /* JSON.swift */; };
+		0B5420CB1D8AE666002FAF29 /* PaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5420CA1D8AE666002FAF29 /* PaletteTests.swift */; };
+		0B5420D11D8AE688002FAF29 /* simple.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B5420D01D8AE688002FAF29 /* simple.json */; };
+		0B5420D21D8AE8AA002FAF29 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA804991D8AC7A80073A44B /* Palette.swift */; };
+		0B5420D31D8AE8AD002FAF29 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5420C21D8ADF47002FAF29 /* JSON.swift */; };
+		0B7B228B1D8AFA1200566BED /* JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B228A1D8AFA1200566BED /* JSONTests.swift */; };
+		0B7B228D1D8B069A00566BED /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B228C1D8B069A00566BED /* macOS.swift */; };
+		0B7B228F1D8B08B500566BED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B228E1D8B08B500566BED /* Extensions.swift */; };
+		0B82EA1B1D8C2F1D00E70BD1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B228E1D8B08B500566BED /* Extensions.swift */; };
 		0BA804931D8AC79A0073A44B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA804921D8AC79A0073A44B /* main.swift */; };
+		0BA8049A1D8AC7A80073A44B /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA804991D8AC7A80073A44B /* Palette.swift */; };
+		0BBFCDE51D91E339004A8FF7 /* ColorsConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFCDE41D91E339004A8FF7 /* ColorsConversionTests.swift */; };
+		0BBFCDE71D91F456004A8FF7 /* macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBFCDE61D91F456004A8FF7 /* macOSTests.swift */; };
+		0BBFCDE81D91F4DE004A8FF7 /* macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B228C1D8B069A00566BED /* macOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +36,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B5420C21D8ADF47002FAF29 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		0B5420C81D8AE666002FAF29 /* PaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5420CA1D8AE666002FAF29 /* PaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTests.swift; sourceTree = "<group>"; };
+		0B5420CC1D8AE666002FAF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5420D01D8AE688002FAF29 /* simple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple.json; sourceTree = "<group>"; };
+		0B7B228A1D8AFA1200566BED /* JSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
+		0B7B228C1D8B069A00566BED /* macOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOS.swift; sourceTree = "<group>"; };
+		0B7B228E1D8B08B500566BED /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0BA8048F1D8AC79A0073A44B /* Palette */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Palette; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA804921D8AC79A0073A44B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0BA804991D8AC7A80073A44B /* Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		0BBFCDE41D91E339004A8FF7 /* ColorsConversionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsConversionTests.swift; sourceTree = "<group>"; };
+		0BBFCDE61D91F456004A8FF7 /* macOSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B5420C51D8AE666002FAF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0BA8048C1D8AC79A0073A44B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +69,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5420C91D8AE666002FAF29 /* PaletteTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5420CA1D8AE666002FAF29 /* PaletteTests.swift */,
+				0B5420CC1D8AE666002FAF29 /* Info.plist */,
+				0B5420D01D8AE688002FAF29 /* simple.json */,
+				0B7B228A1D8AFA1200566BED /* JSONTests.swift */,
+				0BBFCDE41D91E339004A8FF7 /* ColorsConversionTests.swift */,
+				0BBFCDE61D91F456004A8FF7 /* macOSTests.swift */,
+			);
+			path = PaletteTests;
+			sourceTree = "<group>";
+		};
 		0BA804861D8AC79A0073A44B = {
 			isa = PBXGroup;
 			children = (
 				0BA804911D8AC79A0073A44B /* Palette */,
+				0B5420C91D8AE666002FAF29 /* PaletteTests */,
 				0BA804901D8AC79A0073A44B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				0BA8048F1D8AC79A0073A44B /* Palette */,
+				0B5420C81D8AE666002FAF29 /* PaletteTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +103,11 @@
 		0BA804911D8AC79A0073A44B /* Palette */ = {
 			isa = PBXGroup;
 			children = (
+				0BA804991D8AC7A80073A44B /* Palette.swift */,
 				0BA804921D8AC79A0073A44B /* main.swift */,
+				0B5420C21D8ADF47002FAF29 /* JSON.swift */,
+				0B7B228C1D8B069A00566BED /* macOS.swift */,
+				0B7B228E1D8B08B500566BED /* Extensions.swift */,
 			);
 			path = Palette;
 			sourceTree = "<group>";
@@ -65,6 +115,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0B5420C71D8AE666002FAF29 /* PaletteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5420CF1D8AE666002FAF29 /* Build configuration list for PBXNativeTarget "PaletteTests" */;
+			buildPhases = (
+				0B5420C41D8AE666002FAF29 /* Sources */,
+				0B5420C51D8AE666002FAF29 /* Frameworks */,
+				0B5420C61D8AE666002FAF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaletteTests;
+			productName = PaletteTests;
+			productReference = 0B5420C81D8AE666002FAF29 /* PaletteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0BA8048E1D8AC79A0073A44B /* Palette */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BA804961D8AC79A0073A44B /* Build configuration list for PBXNativeTarget "Palette" */;
@@ -92,6 +159,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = yageek;
 				TargetAttributes = {
+					0B5420C71D8AE666002FAF29 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					0BA8048E1D8AC79A0073A44B = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -111,22 +182,81 @@
 			projectRoot = "";
 			targets = (
 				0BA8048E1D8AC79A0073A44B /* Palette */,
+				0B5420C71D8AE666002FAF29 /* PaletteTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0B5420C61D8AE666002FAF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5420D11D8AE688002FAF29 /* simple.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0B5420C41D8AE666002FAF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B82EA1B1D8C2F1D00E70BD1 /* Extensions.swift in Sources */,
+				0BBFCDE81D91F4DE004A8FF7 /* macOS.swift in Sources */,
+				0B5420D31D8AE8AD002FAF29 /* JSON.swift in Sources */,
+				0B5420CB1D8AE666002FAF29 /* PaletteTests.swift in Sources */,
+				0BBFCDE71D91F456004A8FF7 /* macOSTests.swift in Sources */,
+				0BBFCDE51D91E339004A8FF7 /* ColorsConversionTests.swift in Sources */,
+				0B5420D21D8AE8AA002FAF29 /* Palette.swift in Sources */,
+				0B7B228B1D8AFA1200566BED /* JSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0BA8048B1D8AC79A0073A44B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7B228F1D8B08B500566BED /* Extensions.swift in Sources */,
+				0B5420C31D8ADF47002FAF29 /* JSON.swift in Sources */,
+				0B7B228D1D8B069A00566BED /* macOS.swift in Sources */,
 				0BA804931D8AC79A0073A44B /* main.swift in Sources */,
+				0BA8049A1D8AC7A80073A44B /* Palette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0B5420CD1D8AE666002FAF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaletteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.PaletteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0B5420CE1D8AE666002FAF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PaletteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.yageek.PaletteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		0BA804941D8AC79A0073A44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -234,6 +364,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B5420CF1D8AE666002FAF29 /* Build configuration list for PBXNativeTarget "PaletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5420CD1D8AE666002FAF29 /* Debug */,
+				0B5420CE1D8AE666002FAF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0BA8048A1D8AC79A0073A44B /* Build configuration list for PBXProject "Palette" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -250,6 +389,7 @@
 				0BA804981D8AC79A0073A44B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
