@@ -38,7 +38,3 @@ class MacEncoder: PaletteWriter {
 
     }
 }
-
-class MacDecoder {
-    
-}

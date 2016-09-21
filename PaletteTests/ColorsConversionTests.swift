@@ -10,7 +10,7 @@ import XCTest
 
 class ColorsConversionTests: XCTestCase {
 
-    func testParsingString() {
+    func testColorValue() {
 
         XCTAssertNotNil("#FF0000".colorValue)
         XCTAssertNotNil("#FF0".colorValue)
@@ -23,12 +23,18 @@ class ColorsConversionTests: XCTestCase {
         XCTAssertNil("qwe".colorValue)
         XCTAssertNil("#1".colorValue)
         XCTAssertNil("#12".colorValue)
-    }
 
-    func testConversion() {
         XCTAssertEqual("FF0000".colorValue!, NSColor.red)
         XCTAssertEqual("00FF00".colorValue!, NSColor.green)
         XCTAssertEqual("0000FF".colorValue!, NSColor.blue)
+
+    }
+
+    func testColorHex() {
+
+        XCTAssertEqual(NSColor.red.colorHex, "#FF0000FF")
+        XCTAssertEqual(NSColor.green.colorHex, "#00FF00FF")
+        XCTAssertEqual(NSColor.blue.colorHex, "#0000FFFF")
     }
 
 }

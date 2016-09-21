@@ -1,13 +1,16 @@
 //
-//  main.swift
-//  Palette
+//  PaletteTests.swift
+//  PaletteTests
 //
 //  Created by Yannick Heinrich on 15.09.16.
 //  Copyright © 2016 yageek. All rights reserved.
 //
 
-import Foundation
-import Commander
+import XCTest
 
-print("Hello, World!")
+class PaletteTests: XCTestCase {
 
+
+    
+    
+}

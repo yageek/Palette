@@ -1,0 +1,14 @@
+{
+    "A Simple palette" : {
+        "group 1" : {
+            "Red" : "#FF0000",
+            "Green" : "#00FF00",
+            "Blue" : "#0000FF"
+        },
+        "group 2" : {
+            "Black" : "#000",
+            "White" : "#FFF"
+        }
+    }
+
+}
