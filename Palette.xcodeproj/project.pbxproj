@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B5420C31D8ADF47002FAF29 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5420C21D8ADF47002FAF29 /* JSON.swift */; };
-		0B5420CB1D8AE666002FAF29 /* PaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5420CA1D8AE666002FAF29 /* PaletteTests.swift */; };
 		0B5420D11D8AE688002FAF29 /* simple.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B5420D01D8AE688002FAF29 /* simple.json */; };
 		0B5420D21D8AE8AA002FAF29 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA804991D8AC7A80073A44B /* Palette.swift */; };
 		0B5420D31D8AE8AD002FAF29 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5420C21D8ADF47002FAF29 /* JSON.swift */; };
@@ -36,9 +35,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B02CF6B1D92F427006D0324 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0B02CF6C1D92F46F006D0324 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B28E0C51D92A40900D2E120 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		0B28E0C61D92A40900D2E120 /* Commandant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Commandant.framework; path = Carthage/Build/Mac/Commandant.framework; sourceTree = "<group>"; };
 		0B5420C21D8ADF47002FAF29 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		0B5420C81D8AE666002FAF29 /* PaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B5420CA1D8AE666002FAF29 /* PaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteTests.swift; sourceTree = "<group>"; };
 		0B5420CC1D8AE666002FAF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B5420D01D8AE688002FAF29 /* simple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple.json; sourceTree = "<group>"; };
 		0B7B228A1D8AFA1200566BED /* JSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTests.swift; sourceTree = "<group>"; };
@@ -69,10 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B28E0C41D92A40900D2E120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B28E0C51D92A40900D2E120 /* Result.framework */,
+				0B28E0C61D92A40900D2E120 /* Commandant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0B5420C91D8AE666002FAF29 /* PaletteTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B5420CA1D8AE666002FAF29 /* PaletteTests.swift */,
 				0B5420CC1D8AE666002FAF29 /* Info.plist */,
 				0B5420D01D8AE688002FAF29 /* simple.json */,
 				0B7B228A1D8AFA1200566BED /* JSONTests.swift */,
@@ -85,9 +95,12 @@
 		0BA804861D8AC79A0073A44B = {
 			isa = PBXGroup;
 			children = (
+				0B02CF6C1D92F46F006D0324 /* LICENSE */,
+				0B02CF6B1D92F427006D0324 /* README.md */,
 				0BA804911D8AC79A0073A44B /* Palette */,
 				0B5420C91D8AE666002FAF29 /* PaletteTests */,
 				0BA804901D8AC79A0073A44B /* Products */,
+				0B28E0C41D92A40900D2E120 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,7 +219,6 @@
 				0B82EA1B1D8C2F1D00E70BD1 /* Extensions.swift in Sources */,
 				0BBFCDE81D91F4DE004A8FF7 /* macOS.swift in Sources */,
 				0B5420D31D8AE8AD002FAF29 /* JSON.swift in Sources */,
-				0B5420CB1D8AE666002FAF29 /* PaletteTests.swift in Sources */,
 				0BBFCDE71D91F456004A8FF7 /* macOSTests.swift in Sources */,
 				0BBFCDE51D91E339004A8FF7 /* ColorsConversionTests.swift in Sources */,
 				0B5420D21D8AE8AA002FAF29 /* Palette.swift in Sources */,
@@ -348,6 +360,10 @@
 		0BA804971D8AC79A0073A44B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -356,6 +372,10 @@
 		0BA804981D8AC79A0073A44B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

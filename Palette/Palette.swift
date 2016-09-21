@@ -37,16 +37,18 @@ public struct Palette {
     }
 }
 
+
+/// A PaletteWriter is able to write a palette in a stream.
 protocol PaletteWriter {
     func write(stream: OutputStream, palette: Palette) throws
 }
 
+/// A PaletteReader is able to read a palette from a stream.
 protocol PaletteReader {
     func read(stream: InputStream) throws -> Palette
 }
 
-
-
+//!MARK: - Equatable implementation
 extension Palette: Equatable {}
 extension Palette.Group: Equatable {}
 extension Palette.Color: Equatable {}
